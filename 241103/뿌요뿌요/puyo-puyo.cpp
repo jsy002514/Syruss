@@ -57,12 +57,10 @@ int main() {
                 // 블록 크기가 4 이상인 경우 터지게 처리
                 if (blockSize >= 4) {
                     blockCount++;
-                    // 최대 블록 크기와 숫자 갱신
-                    if (blockSize > maxBlockSize) {
-                        maxBlockSize = blockSize;
-                        maxBlockNum = num;
-                    }
                 }
+                 if (blockSize > maxBlockSize) {
+                     maxBlockSize = blockSize;
+                 }
             }
         }
     }
