@@ -67,6 +67,6 @@ int main() {
         }
     }
 
-    cout << maxBlockNum << " " << maxBlockSize << endl;
+    cout << blockCount <<" " << maxBlockSize << endl;
     return 0;
 }
